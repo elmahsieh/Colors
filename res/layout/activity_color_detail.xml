@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView for color ID -->
+    <TextView
+        android:id="@+id/colorIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/WhiteOutlinedText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- TextView for name -->
+    <TextView
+        android:id="@+id/colorNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/WhiteOutlinedText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/colorIdTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- TextView for hex string -->
+    <TextView
+        android:id="@+id/colorHexTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/WhiteOutlinedText"
+        android:textSize="18sp"
+        android:layout_below="@id/colorNameTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- TextViews for RGB values -->
+    <TextView
+        android:id="@+id/colorRgbTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/WhiteOutlinedText"
+        android:textSize="18sp"
+        android:layout_below="@id/colorHexTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- TextViews for HSL values -->
+    <TextView
+        android:id="@+id/colorHslTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/WhiteOutlinedText"
+        android:textSize="18sp"
+        android:layout_below="@id/colorRgbTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Button for back action -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
