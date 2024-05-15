@@ -1,5 +1,3 @@
-package com.ehsieh2.colorbuster
-
 import android.content.Context
 import org.json.JSONArray
 import java.io.Serializable

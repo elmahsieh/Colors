@@ -1,5 +1,3 @@
-package com.ehsieh2.colorbuster
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ListView
@@ -31,28 +29,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-
-
-//
-//
-//package com.ehsieh2.colorbuster
-//
-//import android.os.Bundle
-//import android.widget.ListView
-//import androidx.appcompat.app.AppCompatActivity
-//
-//class MainActivity : AppCompatActivity() {
-//
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
-//
-//        val listView = findViewById<ListView>(R.id.colorListView)
-//
-//        val colorDataParser = ColorDataParser(this)
-//        val colorList = colorDataParser.parseData()
-//
-//        val colorListAdapter = ColorListAdapter(this, colorList)
-//        listView.adapter = colorListAdapter
-//    }
-//}

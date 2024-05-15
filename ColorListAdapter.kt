@@ -1,5 +1,3 @@
-package com.ehsieh2.colorbuster
-
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater

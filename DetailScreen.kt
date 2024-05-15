@@ -1,5 +1,3 @@
-package com.ehsieh2.colorbuster
-
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
